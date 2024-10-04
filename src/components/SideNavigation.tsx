@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 
 const SideNavigation = () => {
   return (
-    <div className='border-r-2 border-gray p-8'>
+    <div className='border-r-2 border-gray'>
       <img src={logo} alt='X logo' />
       <ul>
         <li>Home</li>
@@ -20,7 +20,6 @@ const SideNavigation = () => {
         <li>Profile</li>
         <li>More</li>
       </ul>
-      <div className='border-r-2 border-black'></div>
     </div>
   )
 }
