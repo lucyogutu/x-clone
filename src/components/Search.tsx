@@ -2,7 +2,7 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <div>
+    <div className='p-8'>
       <input type="search" id="xsearch" name="xsearch" />
       <div>
         <h2>Subscribe to Premium</h2>

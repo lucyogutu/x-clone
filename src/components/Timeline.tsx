@@ -2,10 +2,10 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <div>
+    <div className='border-r-2 border-gray p-8'>
       <div>
         <h4><span>Amagedon</span> @amagedon</h4>
-        <p>This is a test tweet. It is very long and descriptive.</p>
+        <p >This is a test tweet. It is very long and descriptive.</p>
         <ul>
             <li>Reply</li>
             <li>Repost</li>

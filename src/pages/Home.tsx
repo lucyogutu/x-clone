@@ -6,11 +6,13 @@ import Search from '../components/Search';
 
 const Home = () => {
   return (
-    <div>
+      <div className="box-border grid gap-4 grid-cols-3 mx-auto w-4/5">
       <SideNavigation />
+      
       <Timeline />
       <Search />
-    </div>
+    </div> 
+    
   )
 }
 
